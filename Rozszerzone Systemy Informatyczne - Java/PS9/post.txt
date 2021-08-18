@@ -1,0 +1,4 @@
+{
+    "author":"Magda",
+    "message":"Nowa wiadomosc"
+},

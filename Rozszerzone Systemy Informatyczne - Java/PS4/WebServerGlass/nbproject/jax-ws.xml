@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="ShopInfo">
+      <implementation-class>service.throwss.ShopInfo</implementation-class>
+    </service>
+    <service name="HelloWorldImpl">
+      <implementation-class>org.jg.rsi.HelloWorldImpl</implementation-class>
+    </service>
+    <service name="Store">
+      <implementation-class>myservice.Store</implementation-class>
+    </service>
+    <service name="MTOMWSServer">
+      <implementation-class>MTOM.MTOMWSServer</implementation-class>
+    </service>
+    <service name="WSServerSSL">
+      <implementation-class>SSL.WSServerSSL</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>

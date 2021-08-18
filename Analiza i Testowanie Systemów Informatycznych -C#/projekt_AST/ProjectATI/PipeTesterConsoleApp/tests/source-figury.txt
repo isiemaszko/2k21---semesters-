@@ -1,0 +1,35 @@
+program p {
+procedure Circle {
+assign t = 1;
+assign a = t + 10;
+assign d = t * a + 2;
+calls Triangle;
+assign b = t + a;
+calls Hexagon;
+assign b = t + a;
+if t then {
+assign k = a - d;
+while c {
+assign d = d + t;
+assign c = d + 1; }
+assign a = d + t; }
+else {
+assign a = d + t;
+calls Hexagon;
+assign c = c - 1; }
+calls Rectangle; }
+procedure Rectangle {
+while c {
+assign t = d + 3 * a + c;
+calls Triangle;
+assign c = c + 20; }
+assign d = t; }
+procedure Triangle {
+while d {
+if t then {
+assign d = t + 2; }
+else {
+assign a = t * a + d + k * b; }}
+assign c = t + k + d; }
+procedure Hexagon {
+assign t = a + t; }}

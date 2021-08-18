@@ -1,0 +1,7 @@
+C:\Users\izabe\OneDrive\Pulpit\RSI\PS4\WebServiceWCF\WebServiceWCF\bin\WebServiceWCF.dll.config
+C:\Users\izabe\OneDrive\Pulpit\RSI\PS4\WebServiceWCF\WebServiceWCF\bin\WebServiceWCF.dll
+C:\Users\izabe\OneDrive\Pulpit\RSI\PS4\WebServiceWCF\WebServiceWCF\bin\WebServiceWCF.pdb
+C:\Users\izabe\OneDrive\Pulpit\RSI\PS4\WebServiceWCF\WebServiceWCF\obj\Debug\WebServiceWCF.csprojAssemblyReference.cache
+C:\Users\izabe\OneDrive\Pulpit\RSI\PS4\WebServiceWCF\WebServiceWCF\obj\Debug\WebServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\izabe\OneDrive\Pulpit\RSI\PS4\WebServiceWCF\WebServiceWCF\obj\Debug\WebServiceWCF.dll
+C:\Users\izabe\OneDrive\Pulpit\RSI\PS4\WebServiceWCF\WebServiceWCF\obj\Debug\WebServiceWCF.pdb

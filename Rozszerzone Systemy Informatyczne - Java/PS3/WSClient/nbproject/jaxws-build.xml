@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-ShopInfoService" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/ShopInfoService"/>
+        <property name="wsdl-ShopInfoService" location="xml-resources/web-service-references/ShopInfoService/wsdl/localhost_8080/WebServerGlass/ShopInfoService.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/ShopInfoService" destdir="${build.generated.dir}/jax-wsCache/ShopInfoService" wsdl="${wsdl-ShopInfoService}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/WebServerGlass/ShopInfoService?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-ShopInfoService}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/ShopInfoService"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/ShopInfoService">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-ShopInfoService" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/ShopInfoService"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/service/throwss"/>
+    </target>
+    <target name="wsimport-client-WSServerSSLService" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSServerSSLService"/>
+        <property name="wsdl-WSServerSSLService" location="xml-resources/web-service-references/WSServerSSLService/wsdl/localhost_8080/WebServerGlass/WSServerSSLService.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSServerSSLService" destdir="${build.generated.dir}/jax-wsCache/WSServerSSLService" wsdl="${wsdl-WSServerSSLService}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/WebServerGlass/WSServerSSLService?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSServerSSLService}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSServerSSLService"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSServerSSLService">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSServerSSLService" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSServerSSLService"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/ssl"/>
+    </target>
+    <target name="wsimport-client-WSServerSSLService_1" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WSServerSSLService_1"/>
+        <property name="wsdl-WSServerSSLService_1" location="xml-resources/web-service-references/WSServerSSLService_1/wsdl/localhost_8181/WebServerGlass/WSServerSSLService.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WSServerSSLService_1" destdir="${build.generated.dir}/jax-wsCache/WSServerSSLService_1" wsdl="${wsdl-WSServerSSLService_1}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="https://localhost:8181/WebServerGlass/WSServerSSLService?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WSServerSSLService_1}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WSServerSSLService_1"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WSServerSSLService_1">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WSServerSSLService_1" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WSServerSSLService_1"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/ssl"/>
+    </target>
+    <target name="wsimport-client-MTOMWSServerService" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/MTOMWSServerService"/>
+        <property name="wsdl-MTOMWSServerService" location="xml-resources/web-service-references/MTOMWSServerService/wsdl/localhost_8080/WebServerGlass/MTOMWSServerService.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/MTOMWSServerService" destdir="${build.generated.dir}/jax-wsCache/MTOMWSServerService" wsdl="${wsdl-MTOMWSServerService}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/WebServerGlass/MTOMWSServerService?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-MTOMWSServerService}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/MTOMWSServerService"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/MTOMWSServerService">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-MTOMWSServerService" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/MTOMWSServerService"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/mtom"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-ShopInfoService, wsimport-client-WSServerSSLService, wsimport-client-WSServerSSLService_1, wsimport-client-MTOMWSServerService"/>
+</project>

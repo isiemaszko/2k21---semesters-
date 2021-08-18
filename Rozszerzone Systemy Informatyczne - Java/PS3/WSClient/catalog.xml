@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/WebServerGlass/ShopInfoService?WSDL" uri="xml-resources/web-service-references/ShopInfoService/wsdl/localhost_8080/WebServerGlass/ShopInfoService.wsdl"/>
+    <system systemId="http://localhost:8080/WebServerGlass/ShopInfoService?xsd=1" uri="xml-resources/web-service-references/ShopInfoService/wsdl/localhost_8080/WebServerGlass/ShopInfoService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/WebServerGlass/WSServerSSLService?WSDL" uri="xml-resources/web-service-references/WSServerSSLService/wsdl/localhost_8080/WebServerGlass/WSServerSSLService.wsdl"/>
+    <system systemId="http://localhost:8080/WebServerGlass/WSServerSSLService?xsd=1" uri="xml-resources/web-service-references/WSServerSSLService/wsdl/localhost_8080/WebServerGlass/WSServerSSLService.xsd_1.xsd"/>
+    <system systemId="https://localhost:8181/WebServerGlass/WSServerSSLService?WSDL" uri="xml-resources/web-service-references/WSServerSSLService_1/wsdl/localhost_8181/WebServerGlass/WSServerSSLService.wsdl"/>
+    <system systemId="https://localhost:8181/WebServerGlass/WSServerSSLService?xsd=1" uri="xml-resources/web-service-references/WSServerSSLService_1/wsdl/localhost_8181/WebServerGlass/WSServerSSLService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/WebServerGlass/MTOMWSServerService?WSDL" uri="xml-resources/web-service-references/MTOMWSServerService/wsdl/localhost_8080/WebServerGlass/MTOMWSServerService.wsdl"/>
+    <system systemId="http://localhost:8080/WebServerGlass/MTOMWSServerService?xsd=1" uri="xml-resources/web-service-references/MTOMWSServerService/wsdl/localhost_8080/WebServerGlass/MTOMWSServerService.xsd_1.xsd"/>
+</catalog>

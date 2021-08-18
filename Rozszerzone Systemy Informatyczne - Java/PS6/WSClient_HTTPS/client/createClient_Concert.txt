@@ -1,0 +1,1 @@
+keytool -import -v -trustcacerts -alias s1as -keypass changeit -file ../server/localhost.cer -keystore client_cacerts.jks -storepass changeit

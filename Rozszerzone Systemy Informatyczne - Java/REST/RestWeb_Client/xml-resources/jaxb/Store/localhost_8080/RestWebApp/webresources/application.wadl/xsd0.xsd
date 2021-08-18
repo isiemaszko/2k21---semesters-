@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="message" type="message"/>
+
+  <xs:element name="responseList" type="responseList"/>
+
+  <xs:element name="searchParam" type="searchParam"/>
+
+  <xs:complexType name="responseList">
+    <xs:sequence>
+      <xs:element name="products" type="product" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="product">
+    <xs:sequence>
+      <xs:element name="company" type="xs:string" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="price" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="searchParam">
+    <xs:sequence>
+      <xs:element name="company" type="xs:string" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="priceLessThan" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="message">
+    <xs:sequence>
+      <xs:element name="author" type="xs:string" minOccurs="0"/>
+      <xs:element name="id" type="xs:long"/>
+      <xs:element name="message" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://MTOM/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://MTOM/">
+
+<xs:element name="downloadImage" type="tns:downloadImage"/>
+
+<xs:element name="downloadImageResponse" type="tns:downloadImageResponse"/>
+
+<xs:element name="echo" type="tns:echo"/>
+
+<xs:element name="echoResponse" type="tns:echoResponse"/>
+
+<xs:element name="getPDFFile" type="tns:getPDFFile"/>
+
+<xs:element name="getPDFFileResponse" type="tns:getPDFFileResponse"/>
+
+<xs:complexType name="echo">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="echoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="downloadImage">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="downloadImageResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:base64Binary" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getPDFFile">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getPDFFileResponse">
+<xs:sequence/>
+</xs:complexType>
+</xs:schema>

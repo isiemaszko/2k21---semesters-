@@ -1,0 +1,1 @@
+org.pb.ws.HelloWorldImpl
